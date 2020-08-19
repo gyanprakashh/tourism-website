@@ -1,0 +1,103 @@
+.sign-up-container {
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    background-color:  rgba(226, 222, 222, 0.103);
+  }
+  .login-image{
+    margin-top: 60px;
+  }
+  .sign-up-form{
+    border: 2px solid gray;
+    height: 600px;
+    width: 600px;
+    margin:20px;
+    padding: 50px;
+    margin-left: 110px;
+  }
+  .sign-up-form h1{
+    font-weight: 900;
+  }
+  .sign-up-name label{
+    padding: 20px;
+    margin:20px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .sign-up-name input{
+    padding: 6px;
+    margin: 20px;
+  }
+  .sign-up-email label{
+    padding: 20px;
+    margin:20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .sign-up-email input{
+    padding: 6px;
+    margin: 20px;
+  }
+  .sign-up-password label{
+    padding: 15px;
+    margin: 12px;
+    margin-right: 8px;
+    margin-bottom: 3px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .sign-up-password input{
+    padding:6px;
+    margin-left: 0px;
+  }
+  .sign-up-button button{
+    padding: 10px 75px 10px 75px;
+    margin: 40px;
+    font-size: 20px;
+    margin-left: 157px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  }
+  .signin-to-sigup{
+    margin-left: 100px;
+  }
+  .signin-to-sigup a{
+   color: rgb(92, 92, 158);;
+  }
+  @media screen and (max-width:650px){
+    .sign-up-container{
+      margin: 0%;
+      padding: 0%;
+      overflow-x: none;
+    }
+    .sign-up-form{
+      margin:0%;
+      padding: 0%;
+      border: none;
+      
+    }
+    .sign-up-form label{
+      display: inline-block;
+      margin-left:0% !important;
+      margin-right: 0% !important;
+      margin-bottom: 0% !important;
+      padding-left:0% !important ;
+    }
+    .sign-up-button button{
+      margin-left: 10% !important;
+    }
+    .sign-up-form input{
+      display: inline-block;
+      margin: 0% !important;
+      padding:0% !important ;
+      width: 45% !important;
+    }
+    .signin-to-sigup{
+      margin-left: 3% !important;
+    }
+
+  }

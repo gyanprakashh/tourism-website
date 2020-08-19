@@ -1,0 +1,36 @@
+.brand-logo{
+    width:60px;
+    height:60px;
+    margin-top: 0% !important;
+    border-radius: 2em;
+    transition: transform .2s; 
+}
+.brand-logo:hover{
+    transform: scale(1.5);
+    
+}
+.navbar{
+    padding-left: 7%;
+}
+.navbar-nav{
+    margin-left: 55%;
+   
+}
+
+.navbar-nav a{
+ font-size: 25px;
+ font-weight: 500;
+ /* color: rgb(92, 92, 158) !important; */
+ color: white !important;
+ font-weight: 700;
+}
+.navbar-nav a:hover{
+    color: rgb(12, 12, 161);
+    font-weight: 600;
+    opacity: 0.8;
+}
+.web-name{
+    display: inline-block;
+    /* padding-left: 8%;
+    font-size: 20px; */
+}

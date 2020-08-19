@@ -1,0 +1,41 @@
+.forgot-container {
+    display: flex;
+}
+.forgot-container img{
+    height: 600px;
+    width: 600px;
+    object-fit: contain;
+    margin-left: 50px;
+    margin-top: 0px !important;
+}
+.forgot-form{
+    border: 2px solid gray;
+    height: 500px;
+    width: 450px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.forgot-email label {
+    padding: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+    margin-top: 70px;
+}
+
+.forgot-email input {
+    padding: 8px;
+}
+
+.forgot-button {
+    margin: 20px;
+
+}
+
+.forgot-button button {
+    padding: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 7%;
+    margin-left: 130px;
+}

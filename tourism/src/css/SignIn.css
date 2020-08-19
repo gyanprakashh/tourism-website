@@ -1,0 +1,96 @@
+.sign-in-container {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgba(226, 222, 222, 0.103);
+    display: flex;
+  }
+  .login-image{
+    margin-top: 60px;
+  }
+  @media screen and (max-width:650px){
+    .login-image{
+      display: none !important;
+      margin: 0% !important;
+    }
+   
+  }
+  .sign-in-form{
+    border: 2px solid gray;
+    height: 530px;
+    width: 600px;
+    margin:20px;
+    padding: 50px;
+    margin-left: 110px;
+  }
+  @media screen and (max-width:650px){
+    .sign-in-form{
+      margin:0% !important;
+      height: 500px;
+      width: 500px;
+      padding: 0% !important;
+     border: none;
+    }
+    .sign-in-email label{
+     display: inline-block;
+     margin-left: 0% !important;
+     margin-right: 0% !important;
+     padding-left: 0% !important;
+    }
+    .sign-in-email input{
+      display: inline-block;
+        margin-right: 0% !important;
+        padding-left: 0% !important;
+    }
+    .sign-in-password input{
+      display: inline-block;
+      margin-left: 0% !important;
+    }
+    .sign-in-password label{
+      display: inline-block;
+      margin-right: 0% !important;
+      margin-left: 1% !important;
+      padding-left: 0% !important;
+    }
+    .sign-in-button button{
+      display: inline-block;
+      margin-left: 0% !important;
+    }
+  }
+  .sign-in-form h1{
+    font-weight: 900;
+  }
+  .sign-in-email label{
+    padding: 20px;
+    margin:20px;
+  }
+  .sign-in-email input{
+    padding: 6px;
+    margin: 20px;
+  }
+  .sign-in-password label{
+    padding: 15px;
+    margin: 12px;
+    margin-left: 7px;
+  }
+  .sign-in-password input{
+    padding:6px;
+  }
+  .sign-in-button button{
+    padding: 10px 75px 10px 75px;
+    margin: 40px;
+    font-size: 20px;
+    margin-left: 157px;
+    border-radius: 12px;
+  }
+  .sign-in-form h5{
+    margin-left: 200px;
+  }
+  .sign-in-form h5 a{
+    color: rgb(92, 92, 158);
+  }
+  .sign-to-signup{
+    margin-left: 100px;
+  }
+  .sign-to-signup a{
+    color: rgb(92, 92, 158);
+  }

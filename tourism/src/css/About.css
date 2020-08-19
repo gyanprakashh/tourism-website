@@ -1,0 +1,22 @@
+.About-container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    /* height:40vh; */
+    background: rgba(255, 255, 255, 1);
+    background: linear-gradient(11deg,
+            rgba(2, 0, 36, 1) 0%,
+            rgba(167, 180, 182, 0.9363095580028886) 45%);
+}
+
+.About-heading {
+    color: whitesmoke;
+    padding-top: 10%;
+    margin-bottom: 0px;
+    font-size: 4em;
+}
+
+.About-subheading {
+    color: whitesmoke;
+    padding-bottom: 20px;
+}

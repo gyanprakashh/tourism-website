@@ -1,0 +1,39 @@
+
+.reset-container {
+    text-align: center;
+    margin: 50px;
+    /* padding: 50px;  */
+    width: 500px; 
+    border: 2px solid gray;
+    height: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.reset-password label {
+    padding: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.reset-password input {
+    padding: 8px;
+}
+
+.reset-button {
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.reset-button button {
+    padding: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6%;
+
+}

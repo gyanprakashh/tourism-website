@@ -1,0 +1,8 @@
+.hovver:hover{
+    transform: scale(1.04);
+    /* background-color: rgb(10, 10, 20); */
+}
+.hovver{
+transition: all .8s ease-in-out; 
+
+}
